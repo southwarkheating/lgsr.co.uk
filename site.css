@@ -27,7 +27,9 @@ p{margin:0 0 1em}
 .top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;gap:18px;min-height:72px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
-.logo .badge{width:44px;height:44px}
+.logo .brandlogo{height:62px;width:auto}
+.foot .logo .brandlogo{height:84px}
+@media (max-width:640px){.logo .brandlogo{height:48px}}
 .wm{display:flex;flex-direction:column;line-height:1}
 .wm b{font-family:"Inter Display",sans-serif;font-weight:800;font-size:25px;letter-spacing:-.02em}
 .wm b i{font-style:normal;color:var(--green)}
